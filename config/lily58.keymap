@@ -70,11 +70,11 @@
 
         vim_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans         &trans
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &kp T   &kp F   &kp A   &kp I   &kp O          &trans
-&trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                    &kp H   &kp J   &kp K   &kp L   &kp SEMICOLON  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &to 0   &trans  &trans  &trans  &trans  &trans         &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&kp  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp     &kp     &kp     &kp     &kp            &kp
+&kp  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                  &kp T   &kp F   &kp     &kp I   &kp O          &kp
+&kp  &kp A   &kp R   &kp W   &kp Y   &kp D                   &trans  &trans  &trans  &trans  &kp SEMICOLON  &kp
+&kp  &kp     &kp     &kp     &kp     &kp C   &kp      &to 0  &kp     &kp     &kp     &kp     &kp            &kp
+                     &kp     &kp     &kp H   &kp J    &kp K  &kp L   &kp     &kp
             >;
         };
     };

@@ -24,7 +24,7 @@
 &kp ESC  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &trans
 &kp TAB  &kp Q   &kp F   &kp F     &kp P     &kp B                                 &kp J   &kp L     &kp U      &kp Y    &trans    &trans
 &trans   &kp A   &kp R   &kp S     &kp T     &kp G                                 &kp M   &kp N     &kp E      &kp I    &kp O     &trans
-&trans   &kp X   &kp C   &kp D     &kp V     &kp Z      &kp LEFT_SHIFT    &to 3    &kp K   &kp H     &kp COMMA  &kp DOT  &kp FSLH  &trans
+&trans   &kp X   &kp C   &kp D     &kp V     &kp Z      &kp LEFT_SHIFT    &to 0    &kp K   &kp H     &kp COMMA  &kp DOT  &kp FSLH  &trans
                          &kp LALT  &kp LGUI  &kp SPACE  &mo 1             &kp RET  &mo 2   &kp BSPC  &kp RGUI
             >;
         };
@@ -60,16 +60,6 @@
 &kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &kp LEFT     &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
 &kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &trans     &trans  &trans
                            &trans   &trans   &trans   &trans    &trans  &trans       &trans     &trans
-            >;
-        };
-
-        vim_layer {
-            bindings = <
-&kp  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp     &kp     &kp     &kp     &kp            &kp
-&kp  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0                  &kp T   &kp F   &kp     &kp I   &kp O          &kp
-&kp  &kp A   &kp R   &kp W   &kp Y   &kp D                   &trans  &trans  &trans  &trans  &kp SEMICOLON  &kp
-&kp  &kp     &kp     &kp     &kp     &kp C   &kp      &to 0  &kp     &kp     &kp     &kp     &kp            &kp
-                     &kp     &kp     &kp H   &kp J    &kp K  &kp L   &kp     &kp
             >;
         };
     };

@@ -21,11 +21,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                             &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &trans
-&kp TAB  &kp Q   &kp F   &kp F     &kp P     &kp B                              &kp J   &kp L     &kp U      &kp Y    &trans    &trans
-&trans   &kp A   &kp R   &kp S     &kp T     &kp G                              &kp M   &kp N     &kp E      &kp I    &kp O     &trans
-&trans   &kp X   &kp C   &kp D     &kp V     &kp Z   &kp LEFT_SHIFT    &to 3    &kp K   &kp H     &kp COMMA  &kp DOT  &kp FSLH  &trans
-                         &kp LALT  &kp LGUI  &mo 1   &kp SPACE         &kp RET  &mo 2   &kp BSPC  &kp RGUI
+&kp ESC  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &trans
+&kp TAB  &kp Q   &kp F   &kp F     &kp P     &kp B                                 &kp J   &kp L     &kp U      &kp Y    &trans    &trans
+&trans   &kp A   &kp R   &kp S     &kp T     &kp G                                 &kp M   &kp N     &kp E      &kp I    &kp O     &trans
+&trans   &kp X   &kp C   &kp D     &kp V     &kp Z      &kp LEFT_SHIFT    &to 3    &kp K   &kp H     &kp COMMA  &kp DOT  &kp FSLH  &trans
+                         &kp LALT  &kp LGUI  &kp SPACE  &mo 1             &kp RET  &mo 2   &kp BSPC  &kp RGUI
             >;
         };
 

@@ -46,7 +46,7 @@
 &kp ESCAPE    &kp Q  &kp W  &kp F  &kp P          &kp B                                                                          &kp J  &kp L    &kp U      &kp Y    &kp SEMI  &none
 &kp LEFT_ALT  &kp A  &kp R  &kp S  &kp T          &kp G                                                                          &kp M  &kp N    &kp E      &kp I    &kp O     &trans
 &kp LEFT_GUI  &kp X  &kp C  &kp D  &kp V          &kp Z  &none                                    &none                          &kp K  &kp H    &kp COMMA  &kp DOT  &kp FSLH  &trans
-                            &none  &kp BACKSPACE  &mo 2  &tap_hold_kp_timed LEFT_CONTROL SPACE    &hold_tap_kp LEFT_SHIFT ENTER  &mo 1  &kp TAB  &none
+                            &none  &kp BACKSPACE  &mo 1  &tap_hold_kp_timed LEFT_CONTROL SPACE    &hold_tap_kp LEFT_SHIFT ENTER  &mo 2  &kp TAB  &none
             >;
         };
 

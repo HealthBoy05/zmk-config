@@ -28,6 +28,16 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
         };
+
+        tap_kp_hold_layer: tap_kp_hold_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAP_KP_HOLD_LAYER";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {
@@ -42,11 +52,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&trans        &none  &none  &none  &none          &none                                                                          &none  &none    &none      &none    &none     &trans
-&kp ESCAPE    &kp Q  &kp W  &kp F  &kp P          &kp B                                                                          &kp J  &kp L    &kp U      &kp Y    &kp SEMI  &none
-&kp LEFT_ALT  &kp A  &kp R  &kp S  &kp T          &kp G                                                                          &kp M  &kp N    &kp E      &kp I    &kp O     &trans
-&kp LEFT_GUI  &kp X  &kp C  &kp D  &kp V          &kp Z  &none                                    &none                          &kp K  &kp H    &kp COMMA  &kp DOT  &kp FSLH  &trans
-                            &none  &kp BACKSPACE  &mo 1  &tap_hold_kp_timed LEFT_CONTROL SPACE    &hold_tap_kp LEFT_SHIFT ENTER  &mo 2  &kp TAB  &none
+&trans        &none  &none  &none  &none          &none                                                                          &none  &none                    &none                   &none    &none     &trans
+&kp ESCAPE    &kp Q  &kp W  &kp F  &kp P          &kp B                                                                          &kp J  &kp L                    &kp U                   &kp Y    &kp SEMI  &none
+&kp LEFT_ALT  &kp A  &kp R  &kp S  &kp T          &kp G                                                                          &kp M  &hold_tap_kp LEFT_GUI N  &tap_kp_hold_layer 3 E  &kp I    &kp O     &trans
+&kp LEFT_GUI  &kp X  &kp C  &kp D  &kp V          &kp Z  &none                                    &none                          &kp K  &kp H                    &kp COMMA               &kp DOT  &kp FSLH  &trans
+                            &none  &kp BACKSPACE  &mo 1  &tap_hold_kp_timed LEFT_CONTROL SPACE    &hold_tap_kp LEFT_SHIFT ENTER  &mo 2  &kp TAB                  &none
             >;
         };
 
